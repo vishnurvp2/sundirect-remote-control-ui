@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.generalButton {
+  background-color: rgb(60, 60, 60);
+  border-radius: 3mm;
+  width: 14mm;
+  padding: 1mm;
+  border: 0.5mm solid black;
+  color: whitesmoke;
+}
+
+.powerButton {
+  background-color: rgb(255, 22, 76);
+}
+
+.containerRow {
+  display: flex;
+  flex-direction: row;
+  width: 60mm;
+  justify-content: space-between;
+  padding: 1.3mm 5mm;
+}
+
+.align-center {
+  margin: auto;
+}
+
+.playbackButton {
+  width: 10mm;
+  background-color: rgb(68, 113, 1);
+  font-size: 2mm;
+}
+
+.logoLeftPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sunBig {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 8mm;
+  letter-spacing: -0.5mm;
+}
+
+.smallDirect {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 2mm;
+  letter-spacing: 1mm;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0 1mm;
+}
+
+.logoRightPart {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 13mm;
+  letter-spacing: -1mm;
+}
+
+.logoContainer {
+  justify-content: center;
+  gap: 2mm;
+  align-items: center;
+  margin-top: 5mm;
+  color: whitesmoke;
+}
+
+.generalText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3mm;
+  font-weight: 600;
+  letter-spacing: 0.4mm;
+  color: whitesmoke;
+}
+
+.container {
+  width: 60mm;
+  padding-top: 6mm;
+  padding-bottom: 10mm;
+  background-color: #1c1c1c;
+  border-radius: 6mm;
+  margin: 2mm;
+}
